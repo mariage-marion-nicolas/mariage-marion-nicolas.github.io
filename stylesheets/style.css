@@ -210,7 +210,7 @@ h2.page_title {
   font-size: 2.3em;
   margin-bottom: 15px;
   padding-bottom: 15px;
-  margin-top: 20px;
+  margin-top: 1em;
   background: url("../images/bg_title.jpg") repeat-x bottom; }
 
 /* line 132, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
@@ -392,89 +392,114 @@ h3.small_title a {
   display: inline-block;
   color: #675c55; }
 
+/* line 291, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+#content2 p {
+  text-align: justify; }
+
+/* line 295, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+table.prices {
+  margin: 10px auto;
+  text-align: center; }
+  /* line 298, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  table.prices td, table.prices th {
+    padding: 5px; }
+
+/* line 303, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+center.image {
+  padding: 20px; }
+  /* line 306, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  center.image img {
+    border: 3px solid grey;
+    border-radius: 3px; }
+  /* line 310, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  center.image .legend {
+    display: block;
+    font-size: 90%;
+    color: grey; }
+
 @media (max-width: 900px) {
-  /* line 292, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 318, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   #container {
     width: 94%;
     padding-left: 3%;
     padding-right: 3%; }
 
-  /* line 297, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 323, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   #container2 {
     width: 100%; }
 
-  /* line 300, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 326, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   a.button_two {
     width: 85%; }
 
-  /* line 303, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 329, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   a.menu_btn {
     width: 40%; }
 
-  /* line 306, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 332, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   a.see_profil_btn {
     width: auto; }
 
-  /* line 309, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 335, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   #direction_map #map_bloc {
     position: relative; }
 
-  /* line 312, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 338, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   .last_items {
     width: 40%;
     margin-right: 7%; }
 
-  /* line 316, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 342, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   .last_visits {
     width: 60%;
     margin-right: 0; }
 
-  /* line 322, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 348, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   .push_accueil1 p,
   .push_accueil2 p,
   .push_accueil3 p {
     padding-left: 10px;
     padding-right: 10px; } }
 @media (max-width: 511px) {
-  /* line 329, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 355, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   #title h1.website_title span.lettreEt {
     font-size: 1.5em; }
 
-  /* line 332, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 358, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   #title h1.website_title span.bride_name {
     font-size: 1.8em; }
 
-  /* line 335, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 361, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   #title h1.website_title span.groom_name {
     font-size: 1.2em; }
 
-  /* line 341, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 367, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   #title h6.website_date span.date_part2,
   #title h6.website_date span.date_part3,
   #title h6.website_date span.date_part4,
   #title h6.website_date span.date_part5 {
     font-size: 1.2em; }
 
-  /* line 344, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 370, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   #container_content {
     width: 90%;
     padding: 0 5%;
     margin: 0; }
 
-  /* line 349, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 375, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   #random_home_photo {
     display: none; }
 
-  /* line 353, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 379, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   #add_comment_form input[type=text],
   #add_comment_form input[type=password] {
     width: 98%; }
 
-  /* line 356, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 382, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   #add_comment_form input.captcha_input {
     width: 70px; }
 
-  /* line 360, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 386, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   #connexion a.connexion_backend_link,
   #connexion a.connexion_login_link {
     font-size: 0;
@@ -483,33 +508,33 @@ h3.small_title a {
     float: right;
     margin: 0; }
 
-  /* line 367, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 393, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   .trajet_detail {
     width: 96%;
     margin-right: 0; }
 
-  /* line 372, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 398, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   #direction_list,
   #direction_map {
     width: 100%; }
 
-  /* line 375, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 401, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   .last_items {
     width: 85%;
     margin-right: 0;
     margin-left: 8%;
     height: auto; }
 
-  /* line 381, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 407, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   .last_visits {
     display: none; }
 
-  /* line 384, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 410, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   #profilForm label {
     width: 100%;
     float: left; }
 
-  /* line 390, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 416, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   #profilForm textarea,
   #profilForm input[type=text],
   #profilForm input[type=password] {
@@ -517,20 +542,20 @@ h3.small_title a {
     float: left;
     margin: 0; }
 
-  /* line 395, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 421, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   .profil_photo {
     width: 95%; }
 
-  /* line 398, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 424, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   #info_user {
     width: 100%;
     margin: 10px 0; }
 
-  /* line 402, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 428, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   a.gallery_bloc {
     width: 42%; }
 
-  /* line 407, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 433, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   .push_accueil1,
   .push_accueil2,
   .push_accueil3 {
@@ -539,10 +564,10 @@ h3.small_title a {
     float: none;
     width: 100%; }
 
-  /* line 413, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 439, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   .presence_title {
     width: 49%; }
 
-  /* line 416, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
+  /* line 442, /media/storage/n25/Kepler/projets/mariage-html-sources/source/stylesheets/style.css.scss */
   .presence_choice {
     width: 50%; } }
